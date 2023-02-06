@@ -47,7 +47,7 @@
         letterGrade = "E"
     }
     //display letter grade and score in form
-    document.getElementById("score").innerHTML = "your calculated grade is " + ((assignments + GroupPro + quiz + midterm + final + intex) / 100) + "% " + letterGrade
+    alert( "your calculated grade is " + ((assignments + GroupPro + quiz + midterm + final + intex) / 100) + "% " + letterGrade)
 }
 
     )
